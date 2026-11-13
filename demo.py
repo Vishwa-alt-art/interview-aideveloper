@@ -3,7 +3,7 @@ import uvicorn
 
 app = FastAPI()
 
-@app.post('/test')
+@app.get('/test')
 def testing():
     return {'message':'Its working fine'}
 
