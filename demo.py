@@ -8,4 +8,4 @@ def testing():
     return {'message':'Its working fine'}
 
 if __name__ == '__main__':
-    uvicorn.run('main:app', host='0.0.0.0',port=8000)
+    uvicorn.run('demo:app', host='0.0.0.0',port=8000)
